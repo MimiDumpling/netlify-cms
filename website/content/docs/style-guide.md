@@ -19,27 +19,27 @@ Refer to API objects without saying “object,” unless omitting “object” l
 Do: The Pod has two containers.
 
 Don't: The pod has two containers.
------
+_____
 
 Do: The Deployment is responsible for ...	
 
 Don't: The Deployment object is responsible for ...
------
+_____
 
 Do: A PodList is a list of Pods.
 
 Don't: A Pod List is a list of pods.
------
+_____
 
 Do: The two ContainerPorts ...
 
 Don't: The two ContainerPort objects ...
------
+_____
 
 Do: The two ContainerStateTerminated objects ...
 
 Don't: The two ContainerStateTerminateds ...
------
+_____
 
 ### Use angle brackets for placeholders
 
