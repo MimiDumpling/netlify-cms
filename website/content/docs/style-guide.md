@@ -16,6 +16,21 @@ Don’t split the API object name into separate words. For example, use PodTempl
 
 Refer to API objects without saying “object,” unless omitting “object” leads to an awkward construction.
 
+Do: The Pod has two containers.
+Don't: The pod has two containers.
+	
+Do: The Deployment is responsible for ...	
+Don't: The Deployment object is responsible for ...
+
+Do: A PodList is a list of Pods.	
+Don't: A Pod List is a list of pods.
+
+Do: The two ContainerPorts ...	
+Don't: The two ContainerPort objects ...
+
+Do: The two ContainerStateTerminated objects ...	
+Don't: The two ContainerStateTerminateds ...
+
 ### Use angle brackets for placeholders
 
 Use angle brackets for placeholders. Tell the reader what a placeholder represents.
@@ -30,7 +45,7 @@ where ```<pod-name>``` is the name of one of your Pods.
 
 ### Use bold for user interface elements
 
-Do: Click *Fork*.
+Do: Click **Fork**.
 Don't: Click "Fork".
 
 Do:
